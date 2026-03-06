@@ -4,34 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lora:ital,wght@0,400..700;1,400..700&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Lora:ital,wght@0,400..700;1,400..700&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather Practical</title>
   </head>
   <body>
-     <div class="main-info">
-    <div>
+    <div class="main-info">
       <header>
-        <form>
-          <input type="search" placeholder="Enter city...." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city...."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
-
       <main>
-          <h1>Sydney</h1>
-          <p>
-            Friday 13:30, sunny clouds
-            <br />
-            Humidity: 60%, Wind: 10km/h
-          </p>
-        </div>
-        <div>
-            ☀️ 14°C
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-city">Sydney</h1>
+            <p class="weather-description">
+              Friday 13:30, sunny clouds
+              <br />
+              Humidity: <span class="desc-input">60%</span>, Wind:
+              <span class="desc-input">10km/h</span>
+            </p>
+          </div>
+          <div class="weather-temp">
+            <span class="weather-emoji">☀️</span>
+            <span class="weather-value"> 14</span>
+            <span class="weather-unit">°C</span>
+          </div>
         </div>
       </main>
-
       <footer>
         This project was coded by
         <a href="https://github.com/dunmomee-blip" target="_blank"
