@@ -1,0 +1,15 @@
+body {
+  background-color: #f9f7fe;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-info {
+  background: white;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 35px;
+  box-shadow: 0px 30px 40px rgba(65, 50, 100, 0.1);
+  border-radius: 15px;
+}
